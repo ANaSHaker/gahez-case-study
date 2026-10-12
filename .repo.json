@@ -1,0 +1,6 @@
+{
+  "name": "gahez-case-study",
+  "description": "Case study: Jahiz (جاهز), a home-services marketplace with Flutter customer and worker apps. Customers post jobs, workers send offers, they chat over Socket.IO, and both sides confirm completion. Live on Google Play and the App Store. Trusted tradespeople, transparent offers",
+  "topics": ["flutter", "case-study", "marketplace", "home-services", "bloc", "socket-io", "nodejs", "firebase", "arabic", "rtl"],
+  "homepage": "https://play.google.com/store/apps/details?id=com.jahiz.userApp"
+}

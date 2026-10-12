@@ -1,0 +1,87 @@
+{
+  "outDir": "..",
+  "brand": {
+    "name": "Jahiz",
+    "tagline": "Home-services marketplace: describe the job, get real offers, track it to done.",
+    "accent": "#FF9106",
+    "accent2": "#2D6CDF",
+    "logo": "D:/shaker-github/_store/com.jahiz.userApp/icon.png",
+    "dark": true
+  },
+  "images": [
+    {
+      "type": "banner",
+      "file": "banner.png",
+      "kicker": "Case Study · Services marketplace",
+      "subtitle": "Customer + worker apps for home maintenance: request, compare offers, chat, rate.",
+      "screens": [
+        "D:/gahez/gahez-landing/assets/mockups/user-3.jpg",
+        "D:/gahez/gahez-landing/assets/mockups/user-2.jpg",
+        "D:/shaker-github/_store/com.jahiz.worker/shot_03.png"
+      ],
+      "devices": ["iphone", "iphone", "android"],
+      "chips": ["Flutter", "Bloc / Cubit", "Socket.IO chat", "FCM", "Arabic RTL"]
+    },
+    {
+      "type": "devices",
+      "file": "screens-customer.png",
+      "title": "Customer app",
+      "screens": [
+        "D:/gahez/gahez-landing/assets/mockups/user-1.jpg",
+        "D:/gahez/gahez-landing/assets/mockups/user-2.jpg",
+        "D:/shaker-github/_store/ios_com.jahiz.userApp/ios_shot_02.png",
+        "D:/gahez/gahez-landing/assets/mockups/user-3.jpg"
+      ],
+      "devices": ["android", "iphone", "iphone", "android"],
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "type": "devices",
+      "file": "screens-worker.png",
+      "title": "Worker app",
+      "screens": [
+        "D:/shaker-github/_store/com.jahiz.worker/shot_04.png",
+        "D:/shaker-github/_store/com.jahiz.worker/shot_03.png",
+        "D:/shaker-github/_store/com.jahiz.worker/shot_05.png",
+        "D:/shaker-github/_store/com.jahiz.worker/shot_01.png"
+      ],
+      "device": "android",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "type": "gallery",
+      "file": "store-listing.png",
+      "title": "Store listing",
+      "device": "card",
+      "cardRatio": 2.05,
+      "cols": 5,
+      "screens": [
+        "D:/shaker-github/_store/com.jahiz.userApp/shot_01.png",
+        "D:/shaker-github/_store/com.jahiz.userApp/shot_02.png",
+        "D:/shaker-github/_store/com.jahiz.userApp/shot_03.png",
+        "D:/shaker-github/_store/com.jahiz.userApp/shot_04.png",
+        "D:/shaker-github/_store/com.jahiz.userApp/shot_05.png"
+      ]
+    },
+    {
+      "type": "feature",
+      "file": "feature-offers.png",
+      "kicker": "Signature feature",
+      "title": "Request → offers → done, on both sides",
+      "points": [
+        "Customer posts the job with photos and address",
+        "Nearby workers send priced offers",
+        "Customer compares and accepts one offer",
+        "In-app chat (Socket.IO) while the job runs",
+        "Two-sided completion, then a 1–5 rating"
+      ],
+      "screens": [
+        "D:/gahez/gahez-landing/assets/mockups/user-3.jpg",
+        "D:/shaker-github/_store/com.jahiz.worker/shot_03.png"
+      ],
+      "devices": ["iphone", "android"]
+    }
+  ]
+}
